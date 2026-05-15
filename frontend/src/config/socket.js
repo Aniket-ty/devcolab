@@ -13,7 +13,7 @@ export const initializeSocket = (projectId) => {
     // which is correct for same-origin but WRONG when the API is on a different
     // port/host (e.g. Vite dev on :5173, backend on :3000).
     // Now we explicitly use VITE_API_URL so it works in all environments.
-    const serverURL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+    const serverURL = import.meta.env.VITE_API_URL || 'https://devcolab-m34i.onrender.com';
 
     socketInstance = io(serverURL, {
         path:       '/socket.io',

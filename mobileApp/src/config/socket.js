@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:3000';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://devcolab-m34i.onrender.com';
 
 let socketInstance = null;
 

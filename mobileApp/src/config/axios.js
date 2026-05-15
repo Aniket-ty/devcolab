@@ -2,7 +2,7 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // ✅ Change this to your backend URL
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:3000';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://devcolab-m34i.onrender.com';
 
 const axiosInstance = axios.create({
   baseURL: BASE_URL,

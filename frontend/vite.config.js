@@ -11,15 +11,15 @@ export default defineConfig({
     proxy: {
       // HTTP proxies
       '/users': {
-        target: 'http://localhost:3000',
+        target: 'https://devcolab-m34i.onrender.com',
         changeOrigin: true
       },
       '/projects': {
-        target: 'http://localhost:3000',
+        target: 'https://devcolab-m34i.onrender.com',
         changeOrigin: true
       },
       '/ai': {
-        target: 'http://localhost:3000',
+        target: 'https://devcolab-m34i.onrender.com',
         changeOrigin: true
       },
       '/cdn': {
